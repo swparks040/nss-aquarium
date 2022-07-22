@@ -1,6 +1,7 @@
 import { getFish } from './database.js'
 
-const allFish = getFish()
+let allFish = getFish()
+
 
 for (const fish of allFish) {
     console.log(fish)
